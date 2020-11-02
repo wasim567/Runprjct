@@ -1,0 +1,798 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-01T10:07:27.865Z",
+        "line": 13,
+        "name": "User is able to successflly login with the credentials",
+        "description": "",
+        "id": "rahulsheety-academy-webapp-validation-dess;user-is-able-to-successflly-login-with-the-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4465000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenation.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8599000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on homepage \"https://www.rahulshettyacademy.com/#/index\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.rahulshettyacademy.com/#/index",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefenation.Stepdef2.user_is_on_homepage_something(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10271000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on Login tab",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_clicks_on_login_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 296000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is navigated to signup page",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_is_navigated_to_signup_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 402000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters usernamewas@gmail and password12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "was@gmail",
+                  "offset": 20
+                },
+                {
+                  "val": "12345",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefenation.Stepdef2.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 972000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks on Login",
+            "match": {
+              "location": "stepDefenation.Stepdef2.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is able to login to the app",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_is_able_to_login_to_the_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-01T10:07:53.169Z",
+        "line": 14,
+        "name": "User is able to successflly login with the credentials",
+        "description": "",
+        "id": "rahulsheety-academy-webapp-validation-dess;user-is-able-to-successflly-login-with-the-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 339000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenation.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5821000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on homepage \"https://www.rahulshettyacademy.com/#/index\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.rahulshettyacademy.com/#/index",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefenation.Stepdef2.user_is_on_homepage_something(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11288000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on Login tab",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_clicks_on_login_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is navigated to signup page",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_is_navigated_to_signup_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1420000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters usernameabd123@gmail and password12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abd123@gmail",
+                  "offset": 20
+                },
+                {
+                  "val": "12345",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefenation.Stepdef2.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3226000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks on Login",
+            "match": {
+              "location": "stepDefenation.Stepdef2.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is able to login to the app",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_is_able_to_login_to_the_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-01T10:08:15.463Z",
+        "line": 15,
+        "name": "User is able to successflly login with the credentials",
+        "description": "",
+        "id": "rahulsheety-academy-webapp-validation-dess;user-is-able-to-successflly-login-with-the-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 315000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenation.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5094000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on homepage \"https://www.rahulshettyacademy.com/#/index\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.rahulshettyacademy.com/#/index",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefenation.Stepdef2.user_is_on_homepage_something(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11430000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on Login tab",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_clicks_on_login_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is navigated to signup page",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_is_navigated_to_signup_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1206000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters usernamerah.k@gmail and password12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rah.k@gmail",
+                  "offset": 20
+                },
+                {
+                  "val": "12345",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefenation.Stepdef2.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3215000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks on Login",
+            "match": {
+              "location": "stepDefenation.Stepdef2.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is able to login to the app",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_is_able_to_login_to_the_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Rahulsheety academy Webapp validation dess",
+    "description": "",
+    "id": "rahulsheety-academy-webapp-validation-dess",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/dess.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-01T10:08:36.822Z",
+        "line": 5,
+        "name": "User is able to successfully submit the practice page form",
+        "description": "",
+        "id": "rahulsheety-academy-webapp-validation;user-is-able-to-successfully-submit-the-practice-page-form",
+        "after": [
+          {
+            "result": {
+              "duration": 868000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenation.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5269000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on homepage \"https://www.rahulshettyacademy.com/#/index\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.rahulshettyacademy.com/#/index",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefenation.Stepdef2.user_is_on_homepage_something(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefenation.Stepdef2.user_clicks_on_practice_page_link(Stepdef2.java:51)\r\n\tat ✽.user clicks on practice page link(file:///E:/Projects/Selenium/Cucumberdemo/src/test/java/feature/webapp.feature:7)\r\n",
+              "duration": 5000000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user clicks on practice page link",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_clicks_on_practice_page_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user is navigated to pracice page",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_is_navigated_to_pracice_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user enters the name \"waseem\" and emailId \"kwas123@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "waseem",
+                  "offset": 22
+                },
+                {
+                  "val": "kwas123@gmail.com",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefenation.Stepdef2.user_enters_the_name_something_and_emailid_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "selects the checkbox",
+            "match": {
+              "location": "stepDefenation.Stepdef2.selects_the_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "clicks on submit",
+            "match": {
+              "location": "stepDefenation.Stepdef2.clicks_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user is successfully unlocked the practice apps",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_is_successfully_unlocked_the_practice_apps()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-01T10:08:43.007Z",
+        "line": 24,
+        "name": "User is able to successflly login with the credentials",
+        "description": "",
+        "id": "rahulsheety-academy-webapp-validation;user-is-able-to-successflly-login-with-the-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 283000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenation.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6195000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on homepage \"https://www.rahulshettyacademy.com/#/index\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.rahulshettyacademy.com/#/index",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefenation.Stepdef2.user_is_on_homepage_something(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12448000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on Login tab",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_clicks_on_login_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is navigated to signup page",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_is_navigated_to_signup_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1552000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters usernamewas@gmail and password12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "was@gmail",
+                  "offset": 20
+                },
+                {
+                  "val": "12345",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefenation.Stepdef2.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2887000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clicks on Login",
+            "match": {
+              "location": "stepDefenation.Stepdef2.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is able to login to the app",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_is_able_to_login_to_the_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-01T10:09:06.496Z",
+        "line": 25,
+        "name": "User is able to successflly login with the credentials",
+        "description": "",
+        "id": "rahulsheety-academy-webapp-validation;user-is-able-to-successflly-login-with-the-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 296000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenation.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5144000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on homepage \"https://www.rahulshettyacademy.com/#/index\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.rahulshettyacademy.com/#/index",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefenation.Stepdef2.user_is_on_homepage_something(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11120000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on Login tab",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_clicks_on_login_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is navigated to signup page",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_is_navigated_to_signup_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1245000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters usernameabd123@gmail and password12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abd123@gmail",
+                  "offset": 20
+                },
+                {
+                  "val": "12345",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefenation.Stepdef2.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2848000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clicks on Login",
+            "match": {
+              "location": "stepDefenation.Stepdef2.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is able to login to the app",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_is_able_to_login_to_the_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-01T10:09:27.241Z",
+        "line": 26,
+        "name": "User is able to successflly login with the credentials",
+        "description": "",
+        "id": "rahulsheety-academy-webapp-validation;user-is-able-to-successflly-login-with-the-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 291000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenation.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5099000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on homepage \"https://www.rahulshettyacademy.com/#/index\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.rahulshettyacademy.com/#/index",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefenation.Stepdef2.user_is_on_homepage_something(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10720000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on Login tab",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_clicks_on_login_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is navigated to signup page",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_is_navigated_to_signup_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1336000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters usernamerah.k@gmail and password12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rah.k@gmail",
+                  "offset": 20
+                },
+                {
+                  "val": "12345",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefenation.Stepdef2.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2862000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clicks on Login",
+            "match": {
+              "location": "stepDefenation.Stepdef2.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is able to login to the app",
+            "match": {
+              "location": "stepDefenation.Stepdef2.user_is_able_to_login_to_the_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Rahulsheety academy Webapp validation",
+    "description": "",
+    "id": "rahulsheety-academy-webapp-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/webapp.feature",
+    "tags": []
+  }
+]

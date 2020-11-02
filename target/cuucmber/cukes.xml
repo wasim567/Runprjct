@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="140.578">
+<testcase classname="Rahulsheety academy Webapp validation dess" name="User is able to successflly login with the credentials" time="25.225">
+<system-out><![CDATA[Given user is on homepage "https://www.rahulshettyacademy.com/#/index"......passed
+When user clicks on Login tab...............................................passed
+Then user is navigated to signup page.......................................passed
+When user enters usernamewas@gmail and password12345........................passed
+And clicks on Login.........................................................passed
+Then user is able to login to the app.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Rahulsheety academy Webapp validation dess" name="User is able to successflly login with the credentials 2" time="22.272">
+<system-out><![CDATA[Given user is on homepage "https://www.rahulshettyacademy.com/#/index"......passed
+When user clicks on Login tab...............................................passed
+Then user is navigated to signup page.......................................passed
+When user enters usernameabd123@gmail and password12345.....................passed
+And clicks on Login.........................................................passed
+Then user is able to login to the app.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Rahulsheety academy Webapp validation dess" name="User is able to successflly login with the credentials 3" time="21.342">
+<system-out><![CDATA[Given user is on homepage "https://www.rahulshettyacademy.com/#/index"......passed
+When user clicks on Login tab...............................................passed
+Then user is navigated to signup page.......................................passed
+When user enters usernamerah.k@gmail and password12345......................passed
+And clicks on Login.........................................................passed
+Then user is able to login to the app.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Rahulsheety academy Webapp validation" name="User is able to successfully submit the practice page form" time="6.163">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given user is on homepage "https://www.rahulshettyacademy.com/#/index"......passed
+When user clicks on practice page link......................................failed
+Then user is navigated to pracice page......................................skipped
+When user enters the name "waseem" and emailId "kwas123@gmail.com"..........skipped
+And selects the checkbox....................................................skipped
+And clicks on submit........................................................skipped
+Then user is successfully unlocked the practice apps........................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefenation.Stepdef2.user_clicks_on_practice_page_link(Stepdef2.java:51)
+	at ✽.user clicks on practice page link(file:///E:/Projects/Selenium/Cucumberdemo/src/test/java/feature/webapp.feature:7)
+]]></failure>
+</testcase>
+<testcase classname="Rahulsheety academy Webapp validation" name="User is able to successflly login with the credentials" time="23.473">
+<system-out><![CDATA[Given user is on homepage "https://www.rahulshettyacademy.com/#/index"......passed
+When user clicks on Login tab...............................................passed
+Then user is navigated to signup page.......................................passed
+When user enters usernamewas@gmail and password12345........................passed
+And clicks on Login.........................................................passed
+Then user is able to login to the app.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Rahulsheety academy Webapp validation" name="User is able to successflly login with the credentials 2" time="20.73">
+<system-out><![CDATA[Given user is on homepage "https://www.rahulshettyacademy.com/#/index"......passed
+When user clicks on Login tab...............................................passed
+Then user is navigated to signup page.......................................passed
+When user enters usernameabd123@gmail and password12345.....................passed
+And clicks on Login.........................................................passed
+Then user is able to login to the app.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Rahulsheety academy Webapp validation" name="User is able to successflly login with the credentials 3" time="20.382">
+<system-out><![CDATA[Given user is on homepage "https://www.rahulshettyacademy.com/#/index"......passed
+When user clicks on Login tab...............................................passed
+Then user is navigated to signup page.......................................passed
+When user enters usernamerah.k@gmail and password12345......................passed
+And clicks on Login.........................................................passed
+Then user is able to login to the app.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: chromeOptions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 138.734 sec <<< FAILURE!
+User is able to successfully submit the practice page form(Rahulsheety academy Webapp validation)  Time elapsed: 6.697 sec  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefenation.Stepdef2.user_clicks_on_practice_page_link(Stepdef2.java:51)
+	at ?.user clicks on practice page link(file:///E:/Projects/Selenium/Cucumberdemo/src/test/java/feature/webapp.feature:7)
+
